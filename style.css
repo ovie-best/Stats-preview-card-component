@@ -16,7 +16,7 @@ html {
 body {
     font-size: 15px;
     display: grid;
-    place-items: center;
+    place-content: center;
     min-height: 100vh;
     width: 100%;
     background-color: hsl(233, 47%, 7%);
@@ -28,6 +28,7 @@ main {
     border-radius: 10px;
     height: 452px;
     display: grid;
+    margin: 0 auto;
     grid-template-columns: 1fr 1fr;
 }
 
